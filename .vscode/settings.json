@@ -57,7 +57,11 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "cstdint": "cpp",
+    "value.h": "c",
+    "chunk.h": "c",
+    "common.h": "c"
   },
   "C_Cpp.clang_format_fallbackStyle": "Google",
   "editor.formatOnSave": true
