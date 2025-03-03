@@ -64,7 +64,8 @@
     "common.h": "c",
     "vm.h": "c",
     "stdio.h": "c",
-    "scanner.h": "c"
+    "scanner.h": "c",
+    "debug.h": "c"
   },
   "C_Cpp.clang_format_fallbackStyle": "Google",
   "editor.formatOnSave": true
