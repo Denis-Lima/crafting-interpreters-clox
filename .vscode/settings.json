@@ -65,7 +65,9 @@
     "vm.h": "c",
     "stdio.h": "c",
     "scanner.h": "c",
-    "debug.h": "c"
+    "debug.h": "c",
+    "compiler.h": "c",
+    "string.h": "c"
   },
   "C_Cpp.clang_format_fallbackStyle": "Google",
   "editor.formatOnSave": true
