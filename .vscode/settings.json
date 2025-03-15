@@ -68,7 +68,10 @@
     "debug.h": "c",
     "compiler.h": "c",
     "string.h": "c",
-    "stdint.h": "c"
+    "stdint.h": "c",
+    "memory.h": "c",
+    "object.h": "c",
+    "type_traits": "c"
   },
   "C_Cpp.clang_format_fallbackStyle": "Google",
   "editor.formatOnSave": true
