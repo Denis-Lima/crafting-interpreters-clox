@@ -1,6 +1,32 @@
-class Pair {}
+// Define uma classe com um método simples
+class Foo {
+  method() {
+    return 1;
+  }
+}
 
-var pair = Pair();
-pair.first = 1;
-pair.second = 2;
-print pair.first + pair.second; // 3.
+// Cria uma instância da classe
+var foo = Foo();
+
+// Número de chamadas por batch
+var iterations = 10000;
+
+// Função para executar um lote de chamadas de método
+fun test() {
+  var i = 0;
+  while (i < iterations) {
+    foo.method();
+    i = i + 1;
+  }
+}
+
+// Executa o maior número possível de batches em 10 segundos
+var start = clock();
+var count = 0;
+
+while (clock() - start < 10) {
+  test();
+  count = count + 1;
+}
+
+print count;
